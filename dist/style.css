@@ -74,9 +74,7 @@ html:focus-within {
 
 body {
   margin: 0;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  height: 100%;
   padding: 0;
   text-rendering: optimizeSpeed;
   font-family: var(--ff-body);
@@ -230,21 +228,11 @@ img {
   color: var(--blue-li);
   font-weight: 600;
 }
-.btns .add-margin-btn {
-  left: 2%;
-}
-.btns .add-margin-btn:hover span {
-  display: block;
-}
 .btns .dark-mode-btn {
   right: 2%;
 }
 .btns span {
   display: none;
-}
-
-.padding-added {
-  padding-block: 4.8125rem 8.125rem;
 }
 
 #remove-events {
