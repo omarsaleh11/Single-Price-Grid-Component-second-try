@@ -1,0 +1,2 @@
+"use strict";var logo=document.getElementById("logo"),about=document.getElementById("about"),removeEvents=document.getElementById("remove-events");function logoClicked(){about.classList.toggle("none")}logo.addEventListener("click",logoClicked),removeEvents.addEventListener("click",(function(){about.classList.add("none")}));
+//# sourceMappingURL=script.js.map
